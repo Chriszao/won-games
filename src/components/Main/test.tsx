@@ -7,9 +7,17 @@ describe('<Main />', () => {
     const { container } = render(<Main />);
 
     expect(
-      screen.getByRole('heading', { name: /Christofer Assis/i })
+      screen.getByRole('heading', {
+        name: /Boiler plate para projetos Next.Js/i
+      })
     ).toBeInTheDocument();
 
     expect(container.firstChild).toMatchSnapshot();
+  });
+
+  it('should render the colors correctly', () => {
+    const { container } = render(<Main />);
+
+    expect(container.firstChild).toHaveStyle({ 'background-color': '#06092b' });
   });
 });
