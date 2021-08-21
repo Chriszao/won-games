@@ -1,3 +1,6 @@
+<p align="center">
+  <img height="200px" src="https://github.com/Chriszao/boilerplate/blob/main/public/img/icon-512.png?raw=true" />
+</p>
 
 This is a [Next.js](https://nextjs.org/) boilerplate to be used in a course called [Aprenda NextJS, GraphQL/GraphCMS e Leaflet na prática!](https://www.udemy.com/course/aprenda-nextjs-na-pratica/).
 ![ci](https://github.com/React-Avancado/boilerplate/workflows/ci/badge.svg)
