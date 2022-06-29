@@ -2,11 +2,12 @@ import * as S from './styles';
 
 export type LogoProps = {
   color?: 'white' | 'black';
+  size?: 'large' | 'normal';
 };
 
-export function Logo({ color = 'white' }: LogoProps) {
+export function Logo({ color = 'white', size = 'normal' }: LogoProps) {
   return (
-    <S.Wrapper color={color}>
+    <S.Wrapper color={color} size={size}>
       <svg
         role="img"
         aria-label="Won Games"
